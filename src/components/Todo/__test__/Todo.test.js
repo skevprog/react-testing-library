@@ -30,7 +30,6 @@ describe('Todo', () => {
     expect(taskElements.length).toBe(3);
    });
 
-//    className={`todo-item ${todo.completed && "todo-item-active"}`}
    test('Should set the "todo-item-active" class if the task is completed (it was clicked)', () => {
     const MockTodo = (<BrowserRouter><Todo /></BrowserRouter>);
     render(MockTodo);
